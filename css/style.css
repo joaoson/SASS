@@ -1,0 +1,118 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 4rem;
+  width: 100%;
+  background-color: rgb(5, 19, 59);
+}
+.header h1 {
+  padding-left: 10%;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+section {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 1rem;
+  font-size: 1rem;
+  flex-direction: column;
+}
+section .desc {
+  display: flex;
+  align-items: center;
+}
+section h2 {
+  padding-left: 10%;
+  padding-right: 1%;
+  font-size: 24px;
+}
+section a {
+  text-decoration: none;
+  font-weight: bold;
+}
+section a:visited {
+  color: rgb(71, 12, 12);
+}
+section .car-photo {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+}
+section .car-photo img {
+  aspect-ratio: 16/9;
+  width: 80%;
+  display: block;
+}
+section .car-photo .description {
+  width: 80%;
+  padding-top: 2rem;
+}
+section .car-photo .description h3 {
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: bold;
+}
+section .car-photo .description p {
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+section .car-photo .description ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+section .car-photo .description li {
+  padding-bottom: 8px;
+}
+
+.cards {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 19, 59);
+  padding-top: 2rem;
+}
+.cards .position {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cards .position .card {
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards .position .card img {
+  aspect-ratio: 16/9;
+  width: 90%;
+}
+.cards .position .card button {
+  width: 90%;
+  height: 30px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+.cards .position .card button:hover {
+  cursor: pointer;
+  background-color: rgb(212, 212, 212);
+}
+
+/*# sourceMappingURL=style.css.map */

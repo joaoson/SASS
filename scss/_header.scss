@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 4rem;
+    width: 100%;
+    background-color: $bg-color-1;
+
+    h1{
+        padding-left: 10%;
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+
+html{
+    font-family: $font-family-default;
+}

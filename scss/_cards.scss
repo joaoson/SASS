@@ -1,0 +1,45 @@
+.cards{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-color-1;
+    padding-top: 2rem;
+
+    .position{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .card{
+            width: 33.3%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                aspect-ratio: 16/9;
+                width: 90%;
+            }
+
+            button{
+                width:90%;
+                height: 30px;
+                border: none;
+                font-weight: 600;
+                font-size: 20px;
+                border-radius: 4px;
+                margin-top: 15px;
+                margin-bottom: 60px;
+                
+                &:hover{
+                    cursor: pointer;
+                    background-color: rgb(212, 212, 212);
+                }
+            }
+        }
+    }
+}
